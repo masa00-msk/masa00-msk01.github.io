@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+  }
+  .container h1{
+      letter-spacing:5px;
+      color:black;
+  }
+  .container h3{
+    color:black;
+}
+
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://www.yasui-archi.co.jp/wpctrl/wp-content/uploads/2016/10/O2016018-003-1019x719.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  .btn-wrapper {
+    margin: 30px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+    margin-right: 10px;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0,48,94);
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  .login{
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;  
+  }
+  .login:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .header-right a {
+    line-height: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    display: block;
+  }
+
+  
+  .second-wrapper{
+     background-image:url(https://www.yasui-archi.co.jp/wpctrl/wp-content/uploads/2016/10/O2016018-003-1019x719.jpg);
+     background-size: cover;
+    padding: 30px 20px ; 
+    margin: 0px 0px;
+    border-bottom: 0px;
+  }
+  .list{
+    display:inline-block;
+    box-sizing: border-box;
+    line-height:50px;
+    width: 30%;
+    color: white;
+    background-color: rgba(53, 47, 47, 0.3);
+    transition: all 0.5s;
+    text-align: center;
+  }
+  .list:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .list a{
+    line-height: 50px;
+    color: white;
+  }
+  .list1{
+    box-sizing:border-box;
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:15px;
+  }
+  .list2{
+    box-sizing:border-box;
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:15px;
+  }
+  .list3{
+    box-sizing:border-box;
+    height:50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:15px;
+  }
+  .list4{
+    box-sizing:border-box;
+    height:50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+.third-wrapper{
+    width:100%;
+    height: 50PX;
+    display: flex;
+}
+.link{
+    box-sizing:border-box;
+    margin:0px;
+    border: 0px;
+    height: 50px; 
+    width:20%; 
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    line-height:50px;
+}
+.third-wrapper a{
+    text-align: center;
+}
+.btn1{
+    background-color: rgb(97, 97, 218);
+}
+.btn2{
+    background-color: rgb(233, 212, 91);
+}
+.btn3{
+    background-color: rgb(123, 235, 113);
+}
+.btn4{
+    background-color: rgb(233, 91, 91);
+  }
+  .btn5{
+    background-color: rgb(153, 91, 233);
+  }
+  .third-wrapper a{
+    color: white;
+  }
+  
+.fourth-wrapper{
+    background-color: rgb(0,48,94);
+    width: 100%;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.message-picture img{
+  width:70%;
+  height:auto;
+  
+}
+.message-picture{
+  background-color: rgb(0,48,94);
+  text-align: center;
+
+}
+.message-text{
+  margin-top: 20px;
+  background-color: rgb(0,48,94);
+  width: 70%;
+  margin:0 auto;
+}
+.text{
+  width: 100%;
+  margin:0 auto;
+}
+.text p{
+  font-size:x-large;
+  color: white;
+}
+.text h1{
+  text-align: center;
+  color: white;
+}
+.fourth-wrapper a{
+  color:rgb(233, 212, 91);
+}
+
+
+.fifth-wrapper{
+  background:white;
+  width:100%;
+  text-align: center; 
+}
+.research{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #030303;
+}
+.research h2{
+  font-weight: normal;
+}
+.pic{
+  display:inline-block;
+  width: 80%;  
+}
+.researchs1{
+  box-sizing:border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:25px;
+}
+.researchs2{
+  box-sizing:border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:25px;
+}
+.researchs3{
+  box-sizing:border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:25px;
+}
+.researchs4{
+  box-sizing:border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:25px;
+}
+
+.partnerlist{
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+.partnerlist h2{
+  font-weight: normal;
+}
+.partner-name{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color:black;
+}
+.text-contents{
+  width: 90%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 12px;
+  color: black; 
+}
+.partners{
+  margin-bottom: 20px;
+	display: -webkit-flex;
+	display: flex;
+  width: 100%;
+}
+.partner{
+  width: calc( 100% / 3 );
+}
+.partner img{
+  width: calc( 200% / 3 );
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0,48,94);
+  color: white;
+  text-align: center;
+}
+ul.footer-menu li {
+display: inline;
+}
+
+
+
+
+
+
